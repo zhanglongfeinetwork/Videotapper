@@ -10,7 +10,7 @@
 
 ```bash
 
-git clone https://github.com/sunniejs/vue-h5-template.git
+git clone https://github.com/zhanglongfeinetwork/Videotapper.git
 
 cd Videotapper
 
