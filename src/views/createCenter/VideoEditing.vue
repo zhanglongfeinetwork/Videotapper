@@ -110,7 +110,7 @@ export default {
   data() {
     return {
       show: false,
-      blobURL: 'static/media/e9944bff807cf0a4fd57674e46d657ba.6ab932c6.mp4',
+      blobURL: require('../../assets/e9944bff807cf0a4fd57674e46d657ba.mp4'),
       videoState: {
         play: false, // 播放状态
         currentPosition: 0 // 当前播放点距离左边的百分比

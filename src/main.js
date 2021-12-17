@@ -48,8 +48,6 @@ Vue.prototype.$Local = Locals
 
 Vue.config.productionTip = false
 
-import navigation from '@/components/navigation'
-
 import '@/assets/ttf/ttf.css'
 
 // 移动端手势
@@ -64,8 +62,6 @@ import '@/assets/ttf/ttf.css'
 // 引入手势
 import '../static/alloy_finger.js'
 Vue.prototype.$finger = require('../static/alloy_finger.js')
-
-Vue.component('navigation', navigation)
 
 new Vue({
   router,
