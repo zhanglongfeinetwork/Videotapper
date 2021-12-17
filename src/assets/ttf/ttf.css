@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'my-icon-video';
+  src: url('./video.ttf');
+}
+
+.video-icon {
+  font-family: 'my-icon-video';
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+.video-icon-play::before {
+  content: '\e903';
+}
+.video-icon-pause::before {
+  content: '\e900';
+}
+.video-icon-soundoff::before {
+  content: '\e906';
+}
+.video-icon-sound::before {
+  content: '\e901';
+}
+.video-icon-lefthanded::before {
+  content: '\e905';
+}
+.video-icon-righthanded::before {
+  content: '\e909';
+}
+.video-icon-fullscreen::before {
+  content: '\e908';
+}
+.video-icon-hitdot::before {
+  content: '\e904';
+}
+.video-icon-cancel::before {
+  content: '\e907';
+}
